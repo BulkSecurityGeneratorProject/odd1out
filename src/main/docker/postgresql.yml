@@ -1,0 +1,11 @@
+version: '2'
+services:
+    odd1out-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/odd1out/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=odd1out
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
