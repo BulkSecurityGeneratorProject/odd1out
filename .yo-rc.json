@@ -33,6 +33,15 @@
     "otherModules": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": ["en", "sv"]
+    "languages": ["en", "sv"],
+    "appsFolders": ["jhipster2"],
+    "directoryPath": "../",
+    "dockerRepositoryName": "eu.gcr.io/mats-236015",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "monitoring": "no",
+    "istio": "no",
+    "istioRoute": false
   }
 }
